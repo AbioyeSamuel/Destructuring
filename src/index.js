@@ -10,8 +10,12 @@ const [cat, dog] = animals;
 // console.log(catSound);
 // console.log(catName);
 
-const { name = "fluffy", sound = "purr" } = cat; //helps to change the value of key in array objects
-console.log(sound);
+// const { name = "fluffy", sound = "purr" } = cat; //helps to change the value of key in array objects
+
+const {
+  feedingRequirement: { food, water }
+} = cat;
+console.log(food);
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
