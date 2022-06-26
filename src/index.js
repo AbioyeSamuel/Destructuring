@@ -31,6 +31,7 @@ import cars from "./practice";
 // destructuring cars array
 const [honda, tesla] = cars;
 
+// destructuring the speedStat, topSpeed, coloursByPopularity objects
 const {
   speedStats: { topSpeed: hondaTopSpeed }
 } = honda;
