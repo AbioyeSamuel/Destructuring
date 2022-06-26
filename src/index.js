@@ -5,8 +5,8 @@ console.log(animals);
 const [cat, dog] = animals;
 console.log(cat);
 
-const { name, sound } = cat;
-console.log(sound);
+const { name: catName, sound: catSound } = cat;
+console.log(catName);
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
