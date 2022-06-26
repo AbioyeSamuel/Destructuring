@@ -1,8 +1,8 @@
-import animals, { useAnimals } from "./data";
+// import animals, { useAnimals } from "./data";
 
-console.log(animals);
+// console.log(animals);
 
-const [cat, dog] = animals;
+// const [cat, dog] = animals;
 // console.log(cat);
 // console.log(dog);
 
@@ -18,30 +18,31 @@ const [cat, dog] = animals;
 // } = cat;
 // console.log(food);
 
-const [animal, makeSound] = useAnimals(cat);
-console.log(animal);
-makeSound();
+// const [animal, makeSound] = useAnimals(cat);
+// console.log(animal);
+// makeSound();
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
-// import React from "react";
-// import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom";
+import cars from "./practice";
 
-// ReactDOM.render(
-//   <table>
-//     <tr>
-//       <th>Brand</th>
-//       <th>Top Speed</th>
-//     </tr>
-//     <tr>
-//       <td>{tesla.model}</td>
-//       <td>{teslaTopSpeed}</td>
-//       <td>{teslaTopColour}</td>
-//     </tr>
-//     <tr>
-//       <td>{honda.model}</td>
-//       <td>{hondaTopSpeed}</td>
-//       <td>{hondaTopColour}</td>
-//     </tr>
-//   </table>,
-//   document.getElementById("root")
-// );
+ReactDOM.render(
+  <table>
+    <tr>
+      <th>Brand</th>
+      <th>Top Speed</th>
+    </tr>
+    <tr>
+      <td>{tesla.model}</td>
+      <td>{teslaTopSpeed}</td>
+      <td>{teslaTopColour}</td>
+    </tr>
+    <tr>
+      <td>{honda.model}</td>
+      <td>{hondaTopSpeed}</td>
+      <td>{hondaTopColour}</td>
+    </tr>
+  </table>,
+  document.getElementById("root")
+);
