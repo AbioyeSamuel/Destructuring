@@ -2,11 +2,13 @@ import animals from "./data";
 
 console.log(animals);
 
-const [cat, dog] = animals;
-console.log(cat);
+// const [cat, dog] = animals;
+// console.log(cat);
+// console.log(dog);
 
-const { name: catName, sound: catSound } = cat;
-console.log(catName);
+// const { name: catName, sound: catSound } = cat;
+// console.log(catSound);
+// console.log(catName);
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
