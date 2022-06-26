@@ -1,4 +1,4 @@
-import animals from "./data";
+import animals, { useAnimals } from "./data";
 
 console.log(animals);
 
@@ -12,10 +12,15 @@ const [cat, dog] = animals;
 
 // const { name = "fluffy", sound = "purr" } = cat; //helps to change the value of key in array objects
 
-const {
-  feedingRequirement: { food, water }
-} = cat;
-console.log(food);
+//Nested object
+// const {
+//   feedingRequirement: { food, water }
+// } = cat;
+// console.log(food);
+
+const [animal, makeSound] = useAnimals(cat);
+console.log(animal);
+makeSound();
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
