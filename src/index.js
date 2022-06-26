@@ -2,13 +2,16 @@ import animals from "./data";
 
 console.log(animals);
 
-// const [cat, dog] = animals;
+const [cat, dog] = animals;
 // console.log(cat);
 // console.log(dog);
 
 // const { name: catName, sound: catSound } = cat;
 // console.log(catSound);
 // console.log(catName);
+
+const { name = "fluffy", sound = "purr" } = cat; //helps to change the value of key in array objects
+console.log(sound);
 
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
