@@ -32,18 +32,22 @@ import cars from "./practice";
 const [honda, tesla] = cars;
 
 // destructuring the speedStat, topSpeed, coloursByPopularity objects
+
 const {
   speedStats: { topSpeed: hondaTopSpeed }
 } = honda;
+
 const {
   speedStats: { topSpeed: teslaTopSpeed }
 } = tesla;
+
 const {
   coloursByPopularity: [hondaTopColour]
 } = honda;
+
 const {
   coloursByPopularity: [teslaTopColour]
-} = honda;
+} = tesla;
 
 ReactDOM.render(
   <table>
