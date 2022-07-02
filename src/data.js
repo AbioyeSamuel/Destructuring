@@ -8,6 +8,7 @@ function useAnimals(animal) {
     animal.name,
     function () {
       console.log(animal.sound);
+      console.log(animal.feedingRequirement);
     }
   ];
 }
