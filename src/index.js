@@ -41,6 +41,8 @@ const {
   speedStats: { topSpeed: teslaTopSpeed }
 } = tesla;
 
+//The TopColour has to be in [] because, the object to hold it was not specified in the data.js
+
 const {
   coloursByPopularity: [hondaTopColour]
 } = honda;
