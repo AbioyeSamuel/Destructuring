@@ -69,5 +69,4 @@ ReactDOM.render(
       <td>{hondaTopColour}</td>
     </tr>
   </table>,
-  document.getElementById("root")
-);
+  document.getElementById("root"));
